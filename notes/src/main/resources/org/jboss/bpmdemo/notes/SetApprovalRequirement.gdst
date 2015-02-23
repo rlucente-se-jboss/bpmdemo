@@ -24,11 +24,26 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>Budget</header>
+          <header>From Budget</header>
           <constraintValueType>1</constraintValueType>
           <factField>budgetAmount</factField>
           <fieldType>BigDecimal</fieldType>
-          <operator>&lt;=</operator>
+          <operator>&gt;=</operator>
+          <parameters/>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>NUMERIC_BIGDECIMAL</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>-1</width>
+          <header>To Budget</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>budgetAmount</factField>
+          <fieldType>BigDecimal</fieldType>
+          <operator>&lt;</operator>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -39,7 +54,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>Man Hours</header>
+          <header>Max Man Hours</header>
           <constraintValueType>1</constraintValueType>
           <factField>manHours</factField>
           <fieldType>Long</fieldType>
@@ -48,8 +63,10 @@
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
+      <entryPointName></entryPointName>
     </Pattern52>
   </conditionPatterns>
   <actionCols>
@@ -120,6 +137,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueNumeric>20000</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
@@ -127,6 +150,43 @@
       </value>
       <value>
         <valueNumeric class="long">50</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Mid</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>20000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">500</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
