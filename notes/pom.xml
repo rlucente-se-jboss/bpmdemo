@@ -8,13 +8,6 @@
   <packaging>kjar</packaging>
   <name>notes</name>
   <description>Note Demo Project</description>
-  <dependencies>
-    <dependency>
-      <groupId>org.jboss.bpmdemo.army</groupId>
-      <artifactId>model</artifactId>
-      <version>1.0</version>
-    </dependency>
-  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
