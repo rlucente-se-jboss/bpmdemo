@@ -10,8 +10,84 @@
   </descriptionCol>
   <metadataCols/>
   <attributeCols/>
-  <conditionPatterns/>
-  <actionCols/>
+  <conditionPatterns>
+    <Pattern52>
+      <factType>Note</factType>
+      <boundName>note</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <org.drools.workbench.models.guided.dtable.shared.model.LimitedEntryConditionCol52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>-1</width>
+          <header>Budget</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>budgetAmount</factField>
+          <fieldType>BigDecimal</fieldType>
+          <operator>&lt;=</operator>
+          <parameters/>
+          <value>
+            <valueNumeric>0</valueNumeric>
+            <valueString></valueString>
+            <dataType>NUMERIC_BIGDECIMAL</dataType>
+            <isOtherwise>false</isOtherwise>
+          </value>
+        </org.drools.workbench.models.guided.dtable.shared.model.LimitedEntryConditionCol52>
+        <org.drools.workbench.models.guided.dtable.shared.model.LimitedEntryConditionCol52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>-1</width>
+          <header>Man Hours</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>manHours</factField>
+          <fieldType>Long</fieldType>
+          <operator>&lt;=</operator>
+          <parameters/>
+          <value>
+            <valueNumeric class="long">0</valueNumeric>
+            <valueString></valueString>
+            <dataType>NUMERIC_LONG</dataType>
+            <isOtherwise>false</isOtherwise>
+          </value>
+        </org.drools.workbench.models.guided.dtable.shared.model.LimitedEntryConditionCol52>
+      </conditions>
+      <window>
+        <operator></operator>
+        <parameters/>
+      </window>
+    </Pattern52>
+  </conditionPatterns>
+  <actionCols>
+    <org.drools.workbench.models.guided.dtable.shared.model.LimitedEntryActionInsertFactCol52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Requires Approval</header>
+      <factType>Approval</factType>
+      <boundName>approval</boundName>
+      <factField>requiresApproval</factField>
+      <type>Boolean</type>
+      <isInsertLogical>true</isInsertLogical>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </org.drools.workbench.models.guided.dtable.shared.model.LimitedEntryActionInsertFactCol52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -40,9 +116,45 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>org.jboss.bpmdemo.notes.model.Note</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName>org.jboss.bpmdemo.notes</packageName>
   <tableFormat>LIMITED_ENTRY</tableFormat>
-  <data/>
+  <data>
+    <list>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>test</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+  </data>
 </decision-table52>
