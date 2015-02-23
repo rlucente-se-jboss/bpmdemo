@@ -1,0 +1,9 @@
+package org.jboss.bpmdemo.notes;
+
+import java.lang.Number;
+
+rule "RuleTest"
+	dialect "mvel"
+	when
+	then
+end
