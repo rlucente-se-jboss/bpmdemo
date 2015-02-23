@@ -52,13 +52,7 @@
       </window>
     </Pattern52>
   </conditionPatterns>
-  <actionCols>
-    <retract-fact-column52>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Need Approval</header>
-    </retract-fact-column52>
-  </actionCols>
+  <actionCols/>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -118,11 +112,6 @@
         <valueNumeric class="long">20</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>note</valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
