@@ -1,3 +1,10 @@
 <org.guvnor.common.services.shared.metadata.model.Categories>
-  <children/>
+  <children>
+    <org.guvnor.common.services.shared.metadata.model.CategoryItem>
+      <parent class="org.guvnor.common.services.shared.metadata.model.Categories" reference="../../.."/>
+      <children/>
+      <name>army</name>
+      <description></description>
+    </org.guvnor.common.services.shared.metadata.model.CategoryItem>
+  </children>
 </org.guvnor.common.services.shared.metadata.model.Categories>
