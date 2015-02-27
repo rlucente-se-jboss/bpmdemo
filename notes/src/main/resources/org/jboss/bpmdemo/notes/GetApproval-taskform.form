@@ -1,0 +1,57 @@
+
+<form id="1094150323">
+<property name="subject" value=""/>
+<property name="name" value="GetApproval-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="note_approved" type="CheckBox" id="870016462">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approved (note)quot;"/>
+<property name="inputBinding" value="note/approved"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="note_author" type="InputText" id="1692415078">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;author (note)quot;"/>
+<property name="inputBinding" value="note/author"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="note_budgetAmount" type="InputTextBigDecimal" id="1572773713">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;budgetAmount (note)quot;"/>
+<property name="inputBinding" value="note/budgetAmount"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.math.BigDecimal"/>
+</field>
+<field position="3" name="note_createdDate" type="InputDate" id="1491090166">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;createdDate (note)quot;"/>
+<property name="inputBinding" value="note/createdDate"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="note_manHours" type="InputTextLong" id="324597325">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;manHours (note)quot;"/>
+<property name="inputBinding" value="note/manHours"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="5" name="note_notetxt" type="InputText" id="268475126">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;notetxt (note)quot;"/>
+<property name="inputBinding" value="note/notetxt"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="note_title" type="InputText" id="839307030">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;title (note)quot;"/>
+<property name="inputBinding" value="note/title"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder supportedType="className" inputId="note" name="#0000A0" type="dataModelerEntry" outId="" value="org.jboss.bpmdemo.notes.model.Note" id="note"/>
+</form>
