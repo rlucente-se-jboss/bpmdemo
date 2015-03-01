@@ -12,7 +12,7 @@
     <dependency>
       <groupId>org.jboss.bpmdemo.army</groupId>
       <artifactId>model</artifactId>
-      <version>1.1</version>
+      <version>1.2</version>
     </dependency>
   </dependencies>
   <repositories>
