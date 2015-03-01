@@ -4,32 +4,32 @@
 <property name="name" value="notes.restInsertNote-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="9" name="note_notetxt" type="InputText" id="2059137431">
+<field position="0" name="JsonStr" type="InputText" id="682335138">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;notetxt (note)quot;"/>
+<property name="label" value="quot;enquot;,quot;JsonStr (JsonStr)quot;"/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="note/notetxt"/>
+<property name="outputBinding" value="JsonStr"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="Result" type="InputText" id="1482077425">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Result (Result)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Result"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="Status" type="InputTextInteger" id="2093874346">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Status (Status)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Status"/>
+<property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="3" name="StatusMsg" type="InputText" id="1161948996">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;StatusMsg (StatusMsg)quot;"/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="StatusMsg"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="note_createdDate" type="InputDate" id="753984812">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;createdDate (note)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="note/createdDate"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="10" name="note_title" type="InputText" id="2049814280">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;title (note)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="note/title"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="4" name="note_approved" type="CheckBox" id="963019842">
@@ -39,26 +39,12 @@
 <property name="outputBinding" value="note/approved"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="1" name="Result" type="InputText" id="1482077425">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;Result (Result)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="Result"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <field position="5" name="note_author" type="InputText" id="959109705">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;author (note)quot;"/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="note/author"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="note_manHours" type="InputTextLong" id="669947983">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;manHours (note)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="note/manHours"/>
-<property name="fieldClass" value="java.lang.Long"/>
 </field>
 <field position="6" name="note_budgetAmount" type="InputTextBigDecimal" id="205013493">
 <property name="fieldRequired" value="false"/>
@@ -67,18 +53,32 @@
 <property name="outputBinding" value="note/budgetAmount"/>
 <property name="fieldClass" value="java.math.BigDecimal"/>
 </field>
-<field position="2" name="Status" type="InputTextInteger" id="2093874346">
+<field position="7" name="note_createdDate" type="InputDate" id="753984812">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;Status (Status)quot;"/>
+<property name="label" value="quot;enquot;,quot;createdDate (note)quot;"/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="Status"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="outputBinding" value="note/createdDate"/>
+<property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="0" name="JsonStr" type="InputText" id="682335138">
+<field position="8" name="note_manHours" type="InputTextLong" id="669947983">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;JsonStr (JsonStr)quot;"/>
+<property name="label" value="quot;enquot;,quot;manHours (note)quot;"/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="JsonStr"/>
+<property name="outputBinding" value="note/manHours"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="9" name="note_notetxt" type="InputText" id="2059137431">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;notetxt (note)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="note/notetxt"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="note_title" type="InputText" id="2049814280">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;title (note)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="note/title"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="JsonStr" value="java.lang.String" id="JsonStr"/>
