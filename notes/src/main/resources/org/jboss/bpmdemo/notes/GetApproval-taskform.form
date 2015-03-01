@@ -4,41 +4,19 @@
 <property name="name" value="GetApproval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="note_author" type="InputText" id="1692415078">
+<field position="0" name="note_title" type="InputText" id="839307030">
 <property name="fieldRequired" value="false"/>
-<property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Created Byquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Titlequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
-<property name="size" value=""/>
+<property name="size" value="60"/>
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="note/author"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="note_title" type="InputText" id="839307030">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Titlequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="size" value=""/>
-<property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
-<property name="pattern" value=""/>
+<property name="maxlength" value="100"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="isHTML" value="false"/>
@@ -48,7 +26,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="note_notetxt" type="HTMLEditor" id="268475126">
+<field position="1" name="note_notetxt" type="HTMLEditor" id="268475126">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value="200"/>
@@ -72,7 +50,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="note_budgetAmount" type="InputTextBigDecimal" id="1572773713">
+<field position="2" name="note_budgetAmount" type="InputTextBigDecimal" id="1572773713">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -91,7 +69,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.math.BigDecimal"/>
 </field>
-<field position="4" name="note_manHours" type="InputTextLong" id="324597325">
+<field position="3" name="note_manHours" type="InputTextLong" id="324597325">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
@@ -110,15 +88,19 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Long"/>
 </field>
-<field position="5" name=":decorator_0" type="Separator" id="1615563617">
+<field position="4" name=":decorator_0" type="Separator" id="1615563617">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Approval Selectionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="Separator"/>
 </field>
-<field position="6" name="note_approved" type="CheckBox" id="870016462">
+<field position="5" name="note_approved" type="CheckBox" id="870016462">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -134,7 +116,7 @@
 <property name="outputBinding" value="approved"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="7" name="rejectionReason" type="HTMLEditor" id="2142166860">
+<field position="6" name="rejectionReason" type="HTMLEditor" id="2142166860">
 <property name="fieldRequired" value="false"/>
 <property name="height" value="200"/>
 <property name="labelCSSClass" value=""/>
